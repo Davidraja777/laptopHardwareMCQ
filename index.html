@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCQ Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-slide active" id="question1">
+            <p>1. What makes laptop repair particularly challenging?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question1" value="A"><label for="optionA">A) The similarity of all laptop designs</label></li>
+                <li><input type="radio" id="optionB" name="question1" value="B"><label for="optionB">B) The unique design and form factor of each laptop</label></li>
+                <li><input type="radio" id="optionC" name="question1" value="C"><label for="optionC">C) The universal availability of repair manuals</label></li>
+                <li><input type="radio" id="optionD" name="question1" value="D"><label for="optionD">D) The simplicity of internal components</label></li>
+            </ul>
+            <button onclick="checkAnswer(1)">Submit</button>
+            <p class="result" id="result1"></p>
+        </div>
+
+        <div class="carousel-slide" id="question2">
+            <p>2. What type of battery technology is commonly used in laptops and does not suffer from a memory effect?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question2" value="A"><label for="optionA">A) Nickel-Cadmium</label></li>
+                <li><input type="radio" id="optionB" name="question2" value="B"><label for="optionB">B) Alkaline</label></li>
+                <li><input type="radio" id="optionC" name="question2" value="C"><label for="optionC">C) Lithium ion or Lithium-ion polymer</label></li>
+                <li><input type="radio" id="optionD" name="question2" value="D"><label for="optionD">D) Lead-acid</label></li>
+            </ul>
+            <button onclick="checkAnswer(2)">Submit</button>
+            <p class="result" id="result2"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question3">
+            <p>3. What is the primary advantage of using Solid State Drives (SSDs) over traditional hard drives in laptops?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question3" value="A"><label for="optionA">A) Larger storage capacity</label></li>
+                <li><input type="radio" id="optionB" name="question3" value="B"><label for="optionB">B) Cheaper cost</label></li>
+                <li><input type="radio" id="optionC" name="question3" value="C"><label for="optionC">C) Longer lifespan</label></li>
+                <li><input type="radio" id="optionD" name="question3" value="D"><label for="optionD">D) Increased speed for reading and writing data</label></li>
+            </ul>
+            <button onclick="checkAnswer(3)">Submit</button>
+            <p class="result" id="result3"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question4">
+            <p>4. What is the purpose of the Function (Fn) key on a laptop keyboard?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question4" value="A"><label for="optionA">A) To lock the keyboard</label></li>
+                <li><input type="radio" id="optionB" name="question4" value="B"><label for="optionB">B) To activate secondary functions of keys</label></li>
+                <li><input type="radio" id="optionC" name="question4" value="C"><label for="optionC">C) To adjust the screen brightness only</label></li>
+                <li><input type="radio" id="optionD" name="question4" value="D"><label for="optionD">D) To turn the laptop on and off</label></li>
+            </ul>
+            <button onclick="checkAnswer(4)">Submit</button>
+            <p class="result" id="result4"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question5">
+            <p>5. What type of memory module is commonly used in laptops for RAM upgrades?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question5" value="A"><label for="optionA">A) DIMM</label></li>
+                <li><input type="radio" id="optionB" name="question5" value="B"><label for="optionB">B) SIMM</label></li>
+                <li><input type="radio" id="optionC" name="question5" value="C"><label for="optionC">C) SO-DIMM</label></li>
+                <li><input type="radio" id="optionD" name="question5" value="D"><label for="optionD">D) RIMM</label></li>
+            </ul>
+            <button onclick="checkAnswer(5)">Submit</button>
+            <p class="result" id="result5"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question6">
+            <p>6. How is the storage in newer laptops typically connected?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question6" value="A"><label for="optionA">A) Through external USB drives</label></li>
+                <li><input type="radio" id="optionB" name="question6" value="B"><label for="optionB">B) Using M.2 interface or SATA connection</label></li>
+                <li><input type="radio" id="optionC" name="question6" value="C"><label for="optionC">C) With parallel ports</label></li>
+                <li><input type="radio" id="optionD" name="question6" value="D"><label for="optionD">D) Through wireless technology</label></li>
+            </ul>
+            <button onclick="checkAnswer(6)">Submit</button>
+            <p class="result" id="result6"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question7">
+            <p>7. What is a key feature of modern laptops for user authentication?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question7" value="A"><label for="optionA">A) Passwords only</label></li>
+                <li><input type="radio" id="optionB" name="question7" value="B"><label for="optionB">B) Biometric systems like fingerprint readers or facial recognition</label></li>
+                <li><input type="radio" id="optionC" name="question7" value="C"><label for="optionC">C) Security questions</label></li>
+                <li><input type="radio" id="optionD" name="question7" value="D"><label for="optionD">D) Manual key locks</label></li>
+            </ul>
+            <button onclick="checkAnswer(7)">Submit</button>
+            <p class="result" id="result7"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question8">
+            <p>8. Near Field Communication (NFC) in laptops is primarily used for what purpose?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question8" value="A"><label for="optionA">A) Increasing Wi-Fi range</label></li>
+                <li><input type="radio" id="optionB" name="question8" value="B"><label for="optionB">B) Data transfer and authentication without physical contact</label></li>
+                <li><input type="radio" id="optionC" name="question8" value="C"><label for="optionC">C) Charging the laptop battery</label></li>
+                <li><input type="radio" id="optionD" name="question8" value="D"><label for="optionD">D) Connecting to printers wirelessly</label></li>
+            </ul>
+            <button onclick="checkAnswer(8)">Submit</button>
+            <p class="result" id="result8"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question9">
+            <p>9. What is a common characteristic of laptop batteries that are not designed to be modular?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question9" value="A"><label for="optionA">A) They are located outside the laptop case.</label></li>
+                <li><input type="radio" id="optionB" name="question9" value="B"><label for="optionB">B) They are often embedded inside the laptop case.</label></li>
+                <li><input type="radio" id="optionC" name="question9" value="C"><label for="optionC">C) They are always user-replaceable.</label></li>
+                <li><input type="radio" id="optionD" name="question9" value="D"><label for="optionD">D) They do not require charging.</label></li>
+            </ul>
+            <button onclick="checkAnswer(9)">Submit</button>
+            <p class="result" id="result9"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question10">
+            <p>10. When replacing a keyboard on a laptop, what is typically the type of connection used to attach it to the motherboard?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question10" value="A"><label for="optionA">A) Wireless Bluetooth connection</label></li>
+                <li><input type="radio" id="optionB" name="question10" value="B"><label for="optionB">B) Ribbon cable</label></li>
+                <li><input type="radio" id="optionC" name="question10" value="C"><label for="optionC">C) SATA connection</label></li>
+                <li><input type="radio" id="optionD" name="question10" value="D"><label for="optionD">D) USB interface</label></li>
+            </ul>
+            <button onclick="checkAnswer(10)">Submit</button>
+            <p class="result" id="result10"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question11">
+            <p>11. Why might a laptop not have a numeric keypad?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question11" value="A"><label for="optionA">A) It's an older model.</label></li>
+                <li><input type="radio" id="optionB" name="question11" value="B"><label for="optionB">B) Lack of space due to the smaller form factor.</label></li>
+                <li><input type="radio" id="optionC" name="question11" value="C"><label for="optionC">C) Numeric keypads are only available on desktop keyboards.</label></li>
+                <li><input type="radio" id="optionD" name="question11" value="D"><label for="optionD">D) Numeric keypads are considered obsolete.</label></li>
+            </ul>
+            <button onclick="checkAnswer(11)">Submit</button>
+            <p class="result" id="result11"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question12">
+            <p>12. What is the primary reason for a laptop to have memory soldered to the motherboard?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question12" value="A"><label for="optionA">A) To prevent theft</label></li>
+                <li><input type="radio" id="optionB" name="question12" value="B"><label for="optionB">B) To reduce cost</label></li>
+                <li><input type="radio" id="optionC" name="question12" value="C"><label for="optionC">C) To save space and achieve a thinner design</label></li>
+                <li><input type="radio" id="optionD" name="question12" value="D"><label for="optionD">D) To increase the memory speed</label></li>
+            </ul>
+            <button onclick="checkAnswer(12)">Submit</button>
+            <p class="result" id="result12"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question13">
+            <p>13. What kind of interface does an M.2 SSD use in comparison to a traditional SATA-connected SSD?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question13" value="A"><label for="optionA">A) Larger and more complex interface</label></li>
+                <li><input type="radio" id="optionB" name="question13" value="B"><label for="optionB">B) Similar size but different connectivity</label></li>
+                <li><input type="radio" id="optionC" name="question13" value="C"><label for="optionC">C) Smaller and more compact interface</label></li>
+                <li><input type="radio" id="optionD" name="question13" value="D"><label for="optionD">D) Wireless interface</label></li>
+            </ul>
+            <button onclick="checkAnswer(13)">Submit</button>
+            <p class="result" id="result13"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question14">
+            <p>14. What is a common method to upgrade a laptop's operating system from a hard drive to an SSD?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question14" value="A"><label for="optionA">A) Cloning the hard drive to the SSD</label></li>
+                <li><input type="radio" id="optionB" name="question14" value="B"><label for="optionB">B) Removing the hard drive and leaving only the SSD</label></li>
+                <li><input type="radio" id="optionC" name="question14" value="C"><label for="optionC">C) Using only cloud storage and removing all internal drives</label></li>
+                <li><input type="radio" id="optionD" name="question14" value="D"><label for="optionD">D) Physically swapping the positions of the hard drive and SSD</label></li>
+            </ul>
+            <button onclick="checkAnswer(14)">Submit</button>
+            <p class="result" id="result14"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question15">
+            <p>15. What are Mini PCI or Mini PCI Express interfaces used for in laptops?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question15" value="A"><label for="optionA">A) To expand RAM capacity</label></li>
+                <li><input type="radio" id="optionB" name="question15" value="B"><label for="optionB">B) For additional wireless connectivity options like 802.11 or Bluetooth</label></li>
+                <li><input type="radio" id="optionC" name="question15" value="C"><label for="optionC">C) To connect external monitors</label></li>
+                <li><input type="radio" id="optionD" name="question15" value="D"><label for="optionD">D) To increase the processing power</label></li>
+            </ul>
+            <button onclick="checkAnswer(15)">Submit</button>
+            <p class="result" id="result15"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question16">
+            <p>16. How can NFC technology enhance laptop usage in a professional environment like hospitals or warehouses?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question16" value="A"><label for="optionA">A) By enabling quick authentication with devices like phones or watches</label></li>
+                <li><input type="radio" id="optionB" name="question16" value="B"><label for="optionB">B) Through improved internet connectivity</label></li>
+                <li><input type="radio" id="optionC" name="question16" value="C"><label for="optionC">C) By allowing remote control of machinery</label></li>
+                <li><input type="radio" id="optionD" name="question16" value="D"><label for="optionD">D) NFC is not used in professional environments</label></li>
+            </ul>
+            <button onclick="checkAnswer(16)">Submit</button>
+            <p class="result" id="result16"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question17">
+            <p>17. What indicates that a laptop's battery capacity diminishes over time?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question17" value="A"><label for="optionA">A) It charges more quickly.</label></li>
+                <li><input type="radio" id="optionB" name="question17" value="B"><label for="optionB">B) It maintains the same level of charge.</label></li>
+                <li><input type="radio" id="optionC" name="question17" value="C"><label for="optionC">C) It cannot hold a charge as long as it used to.</label></li>
+                <li><input type="radio" id="optionD" name="question17" value="D"><label for="optionD">D) It becomes physically larger.</label></li>
+            </ul>
+            <button onclick="checkAnswer(17)">Submit</button>
+            <p class="result" id="result17"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question18">
+            <p>18. Which component of a laptop is most frequently used for input?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question18" value="A"><label for="optionA">A) The touchpad</label></li>
+                <li><input type="radio" id="optionB" name="question18" value="B"><label for="optionB">B) The keyboard</label></li>
+                <li><input type="radio" id="optionC" name="question18" value="C"><label for="optionC">C) The USB ports</label></li>
+                <li><input type="radio" id="optionD" name="question18" value="D"><label for="optionD">D) The webcam</label></li>
+            </ul>
+            <button onclick="checkAnswer(18)">Submit</button>
+            <p class="result" id="result18"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question19">
+            <p>19. What is the primary concern when performing maintenance on laptop keycaps?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question19" value="A"><label for="optionA">A) The color of the keycaps</label></li>
+                <li><input type="radio" id="optionB" name="question19" value="B"><label for="optionB">B) The fragility of the plastic pieces underneath</label></li>
+                <li><input type="radio" id="optionC" name="question19" value="C"><label for="optionC">C) The size of the keycaps</label></li>
+                <li><input type="radio" id="optionD" name="question19" value="D"><label for="optionD">D) The texture of the keycaps</label></li>
+            </ul>
+            <button onclick="checkAnswer(19)">Submit</button>
+            <p class="result" id="result19"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question20">
+            <p>20. What type of memory module is not typically used in laptops?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question20" value="A"><label for="optionA">A) DIMM</label></li>
+                <li><input type="radio" id="optionB" name="question20" value="B"><label for="optionB">B) SO-DIMM</label></li>
+                <li><input type="radio" id="optionC" name="question20" value="C"><label for="optionC">C) SIMM</label></li>
+                <li><input type="radio" id="optionD" name="question20" value="D"><label for="optionD">D) RIMM</label></li>
+            </ul>
+            <button onclick="checkAnswer(20)">Submit</button>
+            <p class="result" id="result20"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question21">
+            <p>21. What might indicate that a laptop's memory is soldered to the motherboard?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question21" value="A"><label for="optionA">A) There is an extra SO-DIMM slot available.</label></li>
+                <li><input type="radio" id="optionB" name="question21" value="B"><label for="optionB">B) The laptop is exceptionally thick.</label></li>
+                <li><input type="radio" id="optionC" name="question21" value="C"><label for="optionC">C) The inability to upgrade the memory.</label></li>
+                <li><input type="radio" id="optionD" name="question21" value="D"><label for="optionD">D) The presence of multiple USB ports.</label></li>
+            </ul>
+            <button onclick="checkAnswer(21)">Submit</button>
+            <p class="result" id="result21"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question22">
+            <p>22. What differentiates an M.2 SSD from a traditional SATA-connected SSD in terms of physical appearance?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question22" value="A"><label for="optionA">A) An M.2 SSD is round, while a SATA SSD is square.</label></li>
+                <li><input type="radio" id="optionB" name="question22" value="B"><label for="optionB">B) An M.2 SSD is much smaller and lacks cables.</label></li>
+                <li><input type="radio" id="optionC" name="question22" value="C"><label for="optionC">C) An M.2 SSD is transparent, while a SATA SSD is opaque.</label></li>
+                <li><input type="radio" id="optionD" name="question22" value="D"><label for="optionD">D) There is no physical difference.</label></li>
+            </ul>
+            <button onclick="checkAnswer(22)">Submit</button>
+            <p class="result" id="result22"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question23">
+            <p>23. Why might you need to replace a laptop's storage drive?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question23" value="A"><label for="optionA">A) To decrease the screen size.</label></li>
+                <li><input type="radio" id="optionB" name="question23" value="B"><label for="optionB">B) To improve keyboard responsiveness.</label></li>
+                <li><input type="radio" id="optionC" name="question23" value="C"><label for="optionC">C) For more storage or faster performance.</label></li>
+                <li><input type="radio" id="optionD" name="question23" value="D"><label for="optionD">D) To enhance the audio quality.</label></li>
+            </ul>
+            <button onclick="checkAnswer(23)">Submit</button>
+            <p class="result" id="result23"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question24">
+            <p>24. What is a potential drawback of having storage drives internal to the laptop without an access cover?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question24" value="A"><label for="optionA">A) Increased risk of theft.</label></li>
+                <li><input type="radio" id="optionB" name="question24" value="B"><label for="optionB">B) More difficult to replace or upgrade.</label></li>
+                <li><input type="radio" id="optionC" name="question24" value="C"><label for="optionC">C) Reduced battery life.</label></li>
+                <li><input type="radio" id="optionD" name="question24" value="D"><label for="optionD">D) Lower storage capacity.</label></li>
+            </ul>
+            <button onclick="checkAnswer(24)">Submit</button>
+            <p class="result" id="result24"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question25">
+            <p>25. What is a common method for migrating an operating system from a hard drive to an SSD?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question25" value="A"><label for="optionA">A) Using Bluetooth to transfer the data.</label></li>
+                <li><input type="radio" id="optionB" name="question25" value="B"><label for="optionB">B) Creating and moving an image of the hard drive.</label></li>
+                <li><input type="radio" id="optionC" name="question25" value="C"><label for="optionC">C) Manually rewriting the operating system code.</label></li>
+                <li><input type="radio" id="optionD" name="question25" value="D"><label for="optionD">D) Sending the data through email.</label></li>
+            </ul>
+            <button onclick="checkAnswer(25)">Submit</button>
+            <p class="result" id="result25"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question26">
+            <p>26. What type of interface might older laptops use for wireless connectivity upgrades?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question26" value="A"><label for="optionA">A) Thunderbolt</label></li>
+                <li><input type="radio" id="optionB" name="question26" value="B"><label for="optionB">B) Mini PCI or Mini PCI Express</label></li>
+                <li><input type="radio" id="optionC" name="question26" value="C"><label for="optionC">C) FireWire</label></li>
+                <li><input type="radio" id="optionD" name="question26" value="D"><label for="optionD">D) VGA</label></li>
+            </ul>
+            <button onclick="checkAnswer(26)">Submit</button>
+            <p class="result" id="result26"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question27">
+            <p>27. What is the advantage of using biometrics for laptop authentication?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question27" value="A"><label for="optionA">A) It is easier to set up than passwords.</label></li>
+                <li><input type="radio" id="optionB" name="question27" value="B"><label for="optionB">B) It is less secure, hence more user-friendly.</label></li>
+                <li><input type="radio" id="optionC" name="question27" value="C"><label for="optionC">C) It is difficult to duplicate, making it more secure.</label></li>
+                <li><input type="radio" id="optionD" name="question27" value="D"><label for="optionD">D) It only works in daylight.</label></li>
+            </ul>
+            <button onclick="checkAnswer(27)">Submit</button>
+            <p class="result" id="result27"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question28">
+            <p>28. How does NFC technology benefit laptop users in terms of authentication?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question28" value="A"><label for="optionA">A) It requires complex passwords.</label></li>
+                <li><input type="radio" id="optionB" name="question28" value="B"><label for="optionB">B) It allows authentication without physical contact.</label></li>
+                <li><input type="radio" id="optionC" name="question28" value="C"><label for="optionC">C) It uses face recognition.</label></li>
+                <li><input type="radio" id="optionD" name="question28" value="D"><label for="optionD">D) It decreases battery life.</label></li>
+            </ul>
+            <button onclick="checkAnswer(28)">Submit</button>
+            <p class="result" id="result28"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question29">
+            <p>29. In what scenario is a laptop's modular battery most beneficial?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question29" value="A"><label for="optionA">A) When the laptop is used primarily as a desktop replacement.</label></li>
+                <li><input type="radio" id="optionB" name="question29" value="B"><label for="optionB">B) When traveling and needing to swap batteries quickly.</label></li>
+                <li><input type="radio" id="optionC" name="question29" value="C"><label for="optionC">C) When the laptop is always plugged in.</label></li>
+                <li><input type="radio" id="optionD" name="question29" value="D"><label for="optionD">D) When the battery is never used.</label></li>
+            </ul>
+            <button onclick="checkAnswer(29)">Submit</button>
+            <p class="result" id="result29"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question30">
+            <p>30. What is a disadvantage of having a battery inside the laptop case?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question30" value="A"><label for="optionA">A) It makes the laptop lighter.</label></li>
+                <li><input type="radio" id="optionB" name="question30" value="B"><label for="optionB">B) It is not designed to be easily replaceable.</label></li>
+                <li><input type="radio" id="optionC" name="question30" value="C"><label for="optionC">C) It increases the screen size.</label></li>
+                <li><input type="radio" id="optionD" name="question30" value="D"><label for="optionD">D) It enhances the keyboard functionality.</label></li>
+            </ul>
+            <button onclick="checkAnswer(30)">Submit</button>
+            <p class="result" id="result30"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question31">
+            <p>31. Which feature is often altered or omitted in smaller laptops due to space constraints?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question31" value="A"><label for="optionA">A) The webcam</label></li>
+                <li><input type="radio" id="optionB" name="question31" value="B"><label for="optionB">B) The numeric keypad</label></li>
+                <li><input type="radio" id="optionC" name="question31" value="C"><label for="optionC">C) The power button</label></li>
+                <li><input type="radio" id="optionD" name="question31" value="D"><label for="optionD">D) The touchpad</label></li>
+            </ul>
+            <button onclick="checkAnswer(31)">Submit</button>
+            <p class="result" id="result31"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question32">
+            <p>32. Why would a technician need to be cautious when replacing laptop keycaps?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question32" value="A"><label for="optionA">A) To maintain the keyboard color scheme.</label></li>
+                <li><input type="radio" id="optionB" name="question32" value="B"><label for="optionB">B) To prevent damage to delicate underlying mechanisms.</label></li>
+                <li><input type="radio" id="optionC" name="question32" value="C"><label for="optionC">C) To ensure the keys make a clicking sound.</label></li>
+                <li><input type="radio" id="optionD" name="question32" value="D"><label for="optionD">D) To keep the keys illuminated.
+                </label></li>
+            </ul>
+            <button onclick="checkAnswer(32)">Submit</button>
+            <p class="result" id="result32"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question33">
+            <p>33. What type of laptops might have non-upgradable memory due to soldering?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question33" value="A"><label for="optionA">A) Older, bulkier laptops.</label></li>
+                <li><input type="radio" id="optionB" name="question33" value="B"><label for="optionB">B) Laptops designed for gaming.</label></li>
+                <li><input type="radio" id="optionC" name="question33" value="C"><label for="optionC">C) Thinner, more compact laptops.</label></li>
+                <li><input type="radio" id="optionD" name="question33" value="D"><label for="optionD">D) Laptops with large screens.</label></li>
+            </ul>
+            <button onclick="checkAnswer(33)">Submit</button>
+            <p class="result" id="result33"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question34">
+            <p>34. What is a notable advantage of using an SSD over a traditional hard drive in laptops?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question34" value="A"><label for="optionA">A) SSDs are heavier, adding stability to the laptop.</label></li>
+                <li><input type="radio" id="optionB" name="question34" value="B"><label for="optionB">B) SSDs provide significantly higher data transfer speeds.</label></li>
+                <li><input type="radio" id="optionC" name="question34" value="C"><label for="optionC">C) SSDs require more power, enhancing performance.</label></li>
+                <li><input type="radio" id="optionD" name="question34" value="D"><label for="optionD">D) SSDs are larger, providing more physical storage space.</label></li>
+            </ul>
+            <button onclick="checkAnswer(34)">Submit</button>
+            <p class="result" id="result34"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question35">
+            <p>35. What is the main function of an M.2 interface in a laptop?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question35" value="A"><label for="optionA">A) To connect external monitors.</label></li>
+                <li><input type="radio" id="optionB" name="question35" value="B"><label for="optionB">B) To provide a compact connection for SSDs.</label></li>
+                <li><input type="radio" id="optionC" name="question35" value="C"><label for="optionC">C) To enhance audio output.</label></li>
+                <li><input type="radio" id="optionD" name="question35" value="D"><label for="optionD">D) To improve battery charging speed.</label></li>
+            </ul>
+            <button onclick="checkAnswer(35)">Submit</button>
+            <p class="result" id="result35"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question36">
+            <p>36. What challenge might arise from internal storage drives in laptops without external access?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question36" value="A"><label for="optionA">A) They are more prone to overheating.</label></li>
+                <li><input type="radio" id="optionB" name="question36" value="B"><label for="optionB">B) They are harder to replace or upgrade.</label></li>
+                <li><input type="radio" id="optionC" name="question36" value="C"><label for="optionC">C) They increase the risk of data hacking.</label></li>
+                <li><input type="radio" id="optionD" name="question36" value="D"><label for="optionD">D) They consume more battery power.</label></li>
+            </ul>
+            <button onclick="checkAnswer(36)">Submit</button>
+            <p class="result" id="result36"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question37">
+            <p>37. What is a common approach to upgrading a laptop from a spinning hard drive to an SSD?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question37" value="A"><label for="optionA">A) Replacing the laptop's screen.</label></li>
+                <li><input type="radio" id="optionB" name="question37" value="B"><label for="optionB">B) Cloning the hard drive onto the SSD.</label></li>
+                <li><input type="radio" id="optionC" name="question37" value="C"><label for="optionC">C) Removing all USB ports.</label></li>
+                <li><input type="radio" id="optionD" name="question37" value="D"><label for="optionD">D) Decreasing the RAM capacity.</label></li>
+            </ul>
+            <button onclick="checkAnswer(37)">Submit</button>
+            <p class="result" id="result37"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question38">
+            <p>38. What might older laptops use for adding wireless functionality?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question38" value="A"><label for="optionA">A) Infrared ports.</label></li>
+                <li><input type="radio" id="optionB" name="question38" value="B"><label for="optionB">B) Mini PCI or Mini PCI Express cards.</label></li>
+                <li><input type="radio" id="optionC" name="question38" value="C"><label for="optionC">C) External antennas.</label></li>
+                <li><input type="radio" id="optionD" name="question38" value="D"><label for="optionD">D) Dial-up modems.</label></li>
+            </ul>
+            <button onclick="checkAnswer(38)">Submit</button>
+            <p class="result" id="result38"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question39">
+            <p>39. Why are biometric authentication methods like fingerprint and facial recognition secure for laptops?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question39" value="A"><label for="optionA">A) They are unique to each individual and hard to replicate.</label></li>
+                <li><input type="radio" id="optionB" name="question39" value="B"><label for="optionB">B) They are universally the same for all users.</label></li>
+                <li><input type="radio" id="optionC" name="question39" value="C"><label for="optionC">C) They require a physical key.</label></li>
+                <li><input type="radio" id="optionD" name="question39" value="D"><label for="optionD">D) They are less secure but more convenient.</label></li>
+            </ul>
+            <button onclick="checkAnswer(39)">Submit</button>
+            <p class="result" id="result39"></p>
+        </div>
+        
+        <div class="carousel-slide" id="question40">
+            <p>40. How does NFC technology enhance laptop security and convenience?</p>
+            <ul>
+                <li><input type="radio" id="optionA" name="question40" value="A"><label for="optionA">A) By requiring longer passwords.</label></li>
+                <li><input type="radio" id="optionB" name="question40" value="B"><label for="optionB">B) By allowing touchless authentication.</label></li>
+                <li><input type="radio" id="optionC" name="question40" value="C"><label for="optionC">C) By reducing battery life.</label></li>
+                <li><input type="radio" id="optionD" name="question40" value="D"><label for="optionD">D) By increasing the laptop's weight.</label></li>
+            </ul>
+            <button onclick="checkAnswer(40)">Submit</button>
+            <p class="result" id="result40"></p>
+
+            <div class="finish">
+                <button onclick="finishQuiz()" class="finish-button">Finish</button>
+            </div>
+
+        </div>
+
+        <button class="carousel-control left" onclick="moveSlide(-1)"><</button>
+        <button class="carousel-control right" onclick="moveSlide(1)">></button>     
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+            
