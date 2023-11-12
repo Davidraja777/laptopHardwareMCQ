@@ -35,13 +35,13 @@ function checkAnswer(questionNumber) {
 
         if (questionNumber === 1) {
             correctAnswer = "B";
-            correctExplanation = "The unique design and form factor of each laptop.";
+            correctExplanation = "Laptops have diverse designs and form factors, making repairs challenging due to the need for specific knowledge and tools for each brand or model.";
         } else if (questionNumber === 2) {
             correctAnswer = "C";
-            correctExplanation = "Lithium ion or Lithium-ion polymer.";
+            correctExplanation = "These batteries are widely used in laptops because they do not suffer from the memory effect and offer good energy density and longevity.";
         } else if (questionNumber === 3) {
             correctAnswer = "D";
-            correctExplanation = "Increased speed for reading and writing data"; 
+            correctExplanation = "SSDs are favored for their significantly faster data access speeds compared to traditional hard drives, greatly improving overall system performance."; 
         } else if (questionNumber === 4) {
             correctAnswer = "B"; 
             correctExplanation = "The Function (Fn) key is used to enable secondary functionalities of other keys, such as adjusting volume, brightness, or activating special features."; 
