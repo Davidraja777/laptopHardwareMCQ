@@ -27,6 +27,7 @@ function moveSlide(direction) {
 
 function checkAnswer(questionNumber) {
     var selectedOption = document.querySelector('input[name="question' + questionNumber + '"]:checked');
+    var resultElement = document.getElementById("result" + questionNumber);
     var resultText = "";
 
     if (selectedOption) {
@@ -156,11 +157,13 @@ function checkAnswer(questionNumber) {
         if (selectedOption.value === correctAnswer) {
             resultText = "Correct! " + correctExplanation;
         } else {
-            resultText = "Incorrect. The correct answer is " + correctAnswer + ") " + correctExplanation;
+            resultText = "Incorrect. The correct answer is " + correctAnswer + ". " + correctExplanation;
         }
     } else {
         resultText = "Please select an option.";
     }
+
+    resultElement.innerHTML = resultText;
 }
 
 function finishQuiz() {
